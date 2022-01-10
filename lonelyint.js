@@ -20,3 +20,4 @@ function lonelyinteger(a) {
 
 arr=[1,2,3,4,3,2,1]
 console.log(lonelyinteger(arr))
+console.log(lonelyinteger(arr))
