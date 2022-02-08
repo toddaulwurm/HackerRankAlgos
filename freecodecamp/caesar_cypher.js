@@ -18,4 +18,4 @@ function rot13(str) {
     return ciphered;
   }
   
-  rot13("SERR PBQR PNZC");
+  rot13("SERR CVMMN!");
