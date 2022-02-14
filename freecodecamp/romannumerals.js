@@ -16,14 +16,17 @@ function convertToRoman(num) {
     };
     let str = ""
     for(var numeral of Object.keys(roman)){
-      console.log(roman[numeral])
+      // console.log(roman[numeral])
       let multiple = Math.floor(num/roman[numeral])
       num -= multiple*roman[numeral]
-      console.log(num)
+      // console.log(num)
       str += numeral.repeat(multiple);
-      console.log(str)
+      // console.log(str)s
     }
    return str;
   }
   
-  convertToRoman(36);
+console.log(convertToRoman(36));
+console.log(convertToRoman(360));
+console.log(convertToRoman(3600));
+console.log(convertToRoman(2));
